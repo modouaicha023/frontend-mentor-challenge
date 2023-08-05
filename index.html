@@ -9,140 +9,11 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
   <title>Frontend Mentor | Single Price Grid Component</title>
+  <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet">
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    * {
-      box-sizing: border-box;
-    }
-
-    body {
-      background: #000;
-      font-size: 16px;
-      font-family: 'Karla', sans-serif;
-      color: white;
-    }
-
-    .container1 {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-
-    .container {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      width: 80%;
-      height: 80%;
-    }
-
-    .section-1 {
-      flex: 50%;
-      width: 100%;
-      border-radius: 15px 15px 0 0;
-      background-color: white;
-      box-sizing: border-box;
-    }
-
-    .section-2 {
-      flex: 50%;
-      width: 100%;
-      display: flex;
-      flex-wrap: wrap;
-    }
-
-    .section-1 h2 {
-      color: hsl(179, 62%, 43%);
-      margin: 20px;
-      font-weight: 700;
-      font-size: 1.6rem;
-    }
-
-    .section-1 h3 {
-      color: hsl(71, 73%, 54%);
-      margin: 20px;
-      font-size: 1.2rem;
-    }
-
-    .section-1 p {
-      margin: 20px;
-      color: hsl(218, 22%, 67%);
-      font-size: 1rem;
-
-    }
-
-    .section-2-1 {
-      flex: 50%;
-      background-color: hsl(179, 62%, 43%);
-      padding: 20px;
-      border-radius: 0 0 0 15px;
-    }
-
-    .section-2-2 {
-      flex: 50%;
-      background-color: hsla(179, 81%, 48%, 0.897);
-      padding: 20px;
-      border-radius: 0 0 15px 0;
-    }
-
-    .section-2-1 h3 {
-
-      font-size: 1.3rem;
-      color: white;
-      font-weight: 400;
-    }
-
-    .span {
-      font-size: 1.6rem;
-      font-weight: 700;
-      margin-right: 20px;
-      color: white;
-    }
-
-    .month {
-      color: hsl(204, 43%, 93%);
-    }
-
-    #sign-up {
-      width: 80%;
-      height: 50px;
-      color: white;
-      background-color: hsl(71, 73%, 54%);
-      border-radius: 10px;
-      transition: 1s ease;
-      font-size: 1.2rem;
-    }
-
-    #sign-up:hover {
-      width: 90%;
-      height: 50px;
-      color: rgb(0, 0, 0);
-      background-color: hsl(145, 70%, 56%);
-      border-radius: 10px;
-    }
-
-    @media (max-width: 440px) {
-      .section-2 {
-        flex: 50%;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-      }
-      .section-2-1 {
-    
-      border-radius: 0 0 0 0;
-    }
-
-    .section-2-2 {
-      border-radius: 0 0 15px 15px ;
-    }
-
-    }
-  </style>
 </head>
 
 <body>
@@ -168,7 +39,7 @@
           <h3> Monthly Subscription</h3>
           <p class="month"><span class="span">&dollar;29</span>per month</p>
           <p> Full access for less than &dollar;1 a day</p>
-          <button id="sign-up">Sign Up</button>
+          <button id="sign-up" onclick=clicked()>Sign Up</button>
         </div>
         <!-- Fin Sous  Section 1 -->
 
@@ -190,6 +61,7 @@
 
     </div>
   </div>
+  <script src="index.js"></script>
 </body>
 
 </html>
