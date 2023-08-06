@@ -1,7 +1,7 @@
 # Frontend Mentor - Testimonials grid section
 
 ![Design preview for the Testimonials grid section coding challenge](./design/desktop-preview.jpg)
-
+## Live Preview (https://modouaicha023-testimonialsgridsection.netlify.app/)
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
