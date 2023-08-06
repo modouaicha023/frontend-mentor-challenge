@@ -1,7 +1,7 @@
 # Frontend Mentor - Single price grid component
 
 ![Design preview for the Single price grid component coding challenge](./design/desktop-preview.jpg)
-
+## Live Preview (https://modouaicha023-single-price-grid-compo.netlify.app/)
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
